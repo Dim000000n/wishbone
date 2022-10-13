@@ -226,7 +226,78 @@ margin-bottom: 96px;
     margin-bottom: 0;
 }
 
-/*Section №10*/
+/*Section №9*/
+
+.our-team {
+    padding: 100px 0 120px;
+    background-color: #E5E5E5;;
+}
+
+.our-team .container {
+    max-width: 1168px;
+}
+
+.wrapper {
+    max-width: 378px;
+    width: 100%;
+}
+
+.wrapper h2 {
+    margin-bottom: 14px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #403E3B;
+}
+
+.wrapper p {
+    margin-bottom: 41px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #645C55;
+}
+
+.wrapper a {
+    margin-left: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #1B1A1A;
+}
+
+
+.inner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 36px;
+}
+
+.inner:last-child {
+    margin-bottom: 0;
+}
+
+.inner img {
+    margin-right: 30px;
+}
+
+.wrapper .inner h4  {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #1B1A1A;
+}
+
+.wrapper .inner p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #645C55;
+}
+
+    /*Section №10*/
 
 .get-in-touch {
     background: #CEC4BC;
