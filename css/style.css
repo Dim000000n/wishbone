@@ -214,7 +214,7 @@ header nav ul li:last-child a {
 /*Happy Customers*/
 
 .happy-customers {
-    padding: 100px 0;
+    padding: 60px 0;
     background: #403E3B;
 }
 
@@ -253,19 +253,13 @@ header nav ul li:last-child a {
 }
 
 .image-box {
+    min-height: 290px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
     max-width: 351px;
     width: 100%;
-}
-
-.image-box__item {
-display: flex;
-align-items: center;
-justify-content: space-between;
-margin-bottom: 96px;
-}
-
-.image-box__item:last-child {
-    margin-bottom: 0;
 }
 
 /*The swirling staircase*/
