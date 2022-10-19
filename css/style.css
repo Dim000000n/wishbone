@@ -64,19 +64,19 @@ header nav ul li:last-child a {
     color: #FFFFFF;
 }
 
-/*Section №1*/
+/*Wishbone Partners*/
 
-.first-banner {
+.wishbone-partners {
     padding: 137px 0 128px;
     background: #ECE7E4;
     position: relative;
 }
 
-.first-banner .container {
+.wishbone-partners .container {
     max-width: 1240px;
 }
 
-.first-banner h3 {
+.wishbone-partners h3 {
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 2px;
@@ -85,21 +85,21 @@ header nav ul li:last-child a {
     margin-bottom: 20px;
 }
 
-.first-banner h1 {
+.wishbone-partners h1 {
     font-size: 64px;
     line-height: 70px;
     color: #1B1A1A;
     margin-bottom: 18px;
 }
 
-.first-banner p {
+.wishbone-partners p {
     max-width: 509px;
     line-height: 24px;
     color: #403E3B;
     margin-bottom: 41px;
 }
 
-.first-banner a {
+.wishbone-partners a {
     text-decoration: none;
     margin-left: 25px;
     line-height: 24px;
@@ -107,7 +107,7 @@ header nav ul li:last-child a {
     color: #1B1A1A;
 }
 
-.first-banner_image {
+.wishbone-partners_image {
     position: absolute;
     right: 0;
     top: 0;
@@ -117,7 +117,44 @@ header nav ul li:last-child a {
     background-size: cover;
 }
 
-/*Section №4*/
+/*Our firm*/
+
+
+
+
+/*Reeding House*/
+
+.reeding-house {
+    min-height: 600px;
+    background-image: url("../images/reeding-house.jpg");
+    background-size: cover;
+    display: flex;
+    padding-right: 75px;
+    justify-content: end;
+    align-items: center;
+}
+
+.description {
+    max-width: 285px;
+}
+
+.reeding-house .description h5 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #403E3B;
+}
+
+.reeding-house .description p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #645C55;
+}
+
+/*Our Process*/
 
 .our-process {
     padding: 100px 0;
@@ -169,7 +206,12 @@ header nav ul li:last-child a {
     color: #645C55;
 }
 
-/*Section №5*/
+/*The marble staircase*/
+
+
+
+
+/*Happy Customers*/
 
 .happy-customers {
     padding: 100px 0;
@@ -226,7 +268,14 @@ margin-bottom: 96px;
     margin-bottom: 0;
 }
 
-/*Section №9*/
+/*The swirling staircase*/
+
+
+
+/*Featured projects*/
+
+
+/*Our team*/
 
 .our-team {
     padding: 100px 0 120px;
@@ -297,7 +346,7 @@ margin-bottom: 96px;
     color: #645C55;
 }
 
-    /*Section №10*/
+/*Get in touch*/
 
 .get-in-touch {
     background: #CEC4BC;
