@@ -1,0 +1,182 @@
+@media only screen and (max-width: 768px) {
+    header nav ul li {
+        margin-left: 16px;
+    }
+
+    header nav {
+        margin-top: 15px;
+    }
+
+    header .d-flex {
+        flex-direction: column;
+    }
+
+    .wishbone-partners {
+        padding: 40px 0 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wishbone-partners a {
+        margin: 0 0 20px 0;
+    }
+
+    .wishbone-partners_image {
+        position: static;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .our-firm {
+        padding: 40px 0 60px;
+    }
+
+    .our-firm .d-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .our-process {
+        padding: 60px 0;
+    }
+
+    .our-process .d-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .our-process article {
+        margin-bottom: 30px;
+    }
+
+    .happy-customers .container {
+        padding: 0;
+    }
+
+    .happy-customers .d-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects {
+        padding: 60px 0 60px;
+    }
+
+    .projects .d-flex {
+        flex-wrap: wrap;
+    }
+
+    .projects article {
+        margin-bottom: 20px;
+    }
+
+
+
+    .our-team {
+        padding: 60px 0 60px;
+        background-color: #E5E5E5;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 428px) {
+    body {
+        font-size: 13px;
+    }
+
+    header .d-flex {
+        display: none;
+    }
+
+    .wishbone-partners h1 {
+        font-size: 55px;
+        line-height: 60px;
+    }
+
+    .description-firm p {
+        font-size: 13px;
+    }
+
+    .our-process h2 {
+        font-size: 34px;
+    }
+
+    .our-process article {
+        margin: auto;
+    }
+
+    .projects h2 {
+        font-size: 34px;
+    }
+
+    .projects p {
+        font-size: 18px;
+    }
+
+    .projects .d-flex {
+        justify-content: center;
+    }
+
+    .our-team .container.d-flex {
+        display: block;
+    }
+
+    .our-team .wrapper {
+        margin-bottom: 20px;
+    }
+
+    .our-team .wrapper .inner {
+        margin-bottom: 20px;
+    }
+
+    .get-in-touch .d-flex {
+        display: block;
+    }
+
+    .get-in-touch__text {
+        margin-bottom: 20px;
+    }
+
+    .get-in-touch div h3 {
+        font-size: 35px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .wishbone-partners h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .our-process h2 {
+        font-size: 27px;
+    }
+
+    .happy-customers .image-box {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+
+    .get-in-touch div h3 {
+        font-size: 27px;
+    }
+
+    footer .d-flex {
+        display: block;
+    }
+
+    .footer-description {
+        margin-bottom: 20px;
+    }
+
+    footer ul li {
+        margin-right: 20px;
+        margin-left: 0;
+    }
+}
