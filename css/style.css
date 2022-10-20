@@ -38,9 +38,14 @@ header .container {
     padding: 0 20px 0 32px;
 }
 
+header .container .d-flex {
+    align-items: center;
+}
+
 header nav ul {
     list-style: none;
     display: flex;
+    align-items: center;
 }
 
 header nav ul li {
@@ -119,7 +124,32 @@ header nav ul li:last-child a {
 
 /*Our firm*/
 
+.our-firm {
+    padding: 100px 0 120px;
+}
 
+.our-firm .container {
+    max-width: 768px;
+}
+
+.our-fimr__title h2 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #403E3B;
+}
+
+.description-firm {
+    max-width: 500px;
+}
+
+.description-firm p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #403E3B;
+    margin-bottom: 10px;
+}
 
 
 /*Reeding House*/
@@ -208,7 +238,35 @@ header nav ul li:last-child a {
 
 /*The marble staircase*/
 
+.marble-staircase {
+    min-height: 600px;
+    background-image: url("../images/marble-staircase.jpg");
+    background-size: cover;
+    display: flex;
+    padding-right: 75px;
+    justify-content: end;
+    align-items: center;
+}
 
+.description {
+    max-width: 285px;
+}
+
+.marble-staircase .description h5 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #403E3B;
+}
+
+.marble-staircase .description p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #645C55;
+}
 
 
 /*Happy Customers*/
@@ -264,10 +322,80 @@ header nav ul li:last-child a {
 
 /*The swirling staircase*/
 
+.swirling-staircase {
+    min-height: 600px;
+    background-image: url("../images/swirling-staircase.jpg");
+    background-size: cover;
+    display: flex;
+    padding-left: 60px;
+    justify-content: start;
+    align-items: center;
+}
 
+.description {
+    max-width: 285px;
+}
+
+.swirling-staircase .description h5 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #403E3B;
+}
+
+.swirling-staircase .description p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #645C55;
+}
 
 /*Featured projects*/
 
+.featured-projects {
+    padding: 120px 0 100px;
+    background: #F7F7F7;
+}
+
+.featured-projects .container {
+    max-width: 1168px;
+}
+
+.featured-projects h2 {
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 42px;
+    color: #1B1A1A;
+    margin-bottom: 15px;
+}
+
+.featured-projects p {
+    max-width: 581px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #645C55;
+    margin-bottom: 40px;
+}
+
+.projects {
+    margin-bottom: 40px;
+}
+
+.link-to-projects {
+    text-align: center;
+}
+
+.featured-projects a{
+    padding: 11px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #1B1A1A;
+}
 
 /*Our team*/
 
@@ -315,6 +443,7 @@ header nav ul li:last-child a {
     display: flex;
     align-items: center;
     margin-bottom: 36px;
+    min-height: 100px;
 }
 
 .inner:last-child {
@@ -325,14 +454,14 @@ header nav ul li:last-child a {
     margin-right: 30px;
 }
 
-.wrapper .inner h4  {
+.inner h4  {
     font-weight: 400;
     font-size: 17px;
     line-height: 26px;
     color: #1B1A1A;
 }
 
-.wrapper .inner p {
+.inner p {
     margin: 0;
     font-weight: 400;
     font-size: 14px;
