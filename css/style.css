@@ -38,7 +38,7 @@ header .container {
     padding: 0 20px 0 32px;
 }
 
-header .container .d-flex {
+header .container.d-flex {
     align-items: center;
 }
 
