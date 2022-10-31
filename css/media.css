@@ -108,6 +108,10 @@
         margin: auto;
     }
 
+    .happy-customers .container {
+        padding: 0 10px;
+    }
+
     .projects h2 {
         font-size: 34px;
     }
@@ -152,14 +156,28 @@
         line-height: 45px;
     }
 
-    .our-process h2 {
-        font-size: 27px;
+    .reeding-house {
+        padding-right: 10px;
     }
+
+    .our-process h2 {
+        font-size: 25px;
+    }
+
+    .marble-staircase {
+        padding-right: 10px;
+    }
+
+
 
     .happy-customers .image-box {
         display: flex;
         justify-content: space-evenly;
         flex-direction: column;
+    }
+
+    .swirling-staircase {
+        padding-left: 10px;
     }
 
 
