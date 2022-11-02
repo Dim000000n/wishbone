@@ -73,7 +73,6 @@ header nav ul li:last-child a {
 .ui-widget.ui-widget-content {
     border: 1px solid black;
     font-family: 'Poppins';
-    max-width: 310px;
 }
 
 .ui-widget-header {
@@ -88,6 +87,10 @@ header nav ul li:last-child a {
     background: #616161;
     font-weight: normal;
     color: #000000;
+}
+
+.ui-dialog-content p {
+    font-size: 14px;
 }
 
 /*Wishbone Partners*/
