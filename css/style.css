@@ -70,6 +70,26 @@ header nav ul li:last-child a {
     color: #FFFFFF;
 }
 
+.ui-widget.ui-widget-content {
+    border: 1px solid black;
+    font-family: 'Poppins';
+    max-width: 310px;
+}
+
+.ui-widget-header {
+    border: 1px solid #dddddd;
+    background: #1b1a1a;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.ui-button:active {
+    border: 1px solid #ffffff;
+    background: #616161;
+    font-weight: normal;
+    color: #000000;
+}
+
 /*Wishbone Partners*/
 
 .wishbone-partners {
